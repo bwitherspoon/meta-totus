@@ -4,15 +4,15 @@ Totus
 This layer depends on:
 
 * URI: git://github.com/openembedded/oe-core.git
-* branch: jethro
+* branch: krogoth
 * revision: HEAD
 
 Setup
 -----
 
-    git clone -b jethro git://git.yoctoproject.org/poky
+    git clone -b krogoth git://git.yoctoproject.org/poky
     cd poky
-    git clone -b jethro https://github.com/bwitherspoon/meta-totus.git
+    git clone -b krogoth https://github.com/bwitherspoon/meta-totus.git
     TEMPLATECONF=$(pwd)/meta-totus/conf source ./oe-init-build-env
     export MACHINE=<machine>
 
